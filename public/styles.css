@@ -1,0 +1,21 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #440a67;
+  background-color: #ffe3fe;
+}
+
+table, td {
+  border: 1px solid #440a67;
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+td:hover {
+  background-color: #b4aee8;
+}

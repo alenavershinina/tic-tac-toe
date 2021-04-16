@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js" defer></script>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <div id=game>
+      <p id="sign"></p>
+      <div id="active"></div>
+      <table hidden>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <p id="status"></p>
+      <button hidden id="newGame" type="button" name="button">New game</button>
+    </div>
+  </body>
+</html>
